@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  background: url("../img/hulkbackground.jpg") no-repeat;
-  background-size: cover;
+  background: url("../img/rick.png") no-repeat right top;
+  background-size: initial;
 }
 
 h1 {
