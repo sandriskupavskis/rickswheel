@@ -19,8 +19,9 @@ html {
 }
 
 body {
-  background: url("../img/rick.png") no-repeat right top;
-  background-size: initial;
+  background: url("../img/rick_ps.png") no-repeat 80% top;
+  background-size: auto 100vh;
+  height: 100vh;
 }
 
 h1 {
@@ -197,11 +198,11 @@ textarea {
    ========================================================================== */
 
 @media only screen and (max-width: 1450px) {
-  body {
-    background: url("../img/rick.png") no-repeat;
-    background-size: 100vh auto;
-    background-position: 120% 0%;
-  }
+  /*body {*/
+  /*  background: url("../img/rick.png") no-repeat;*/
+  /*  background-size: 100vh auto;*/
+  /*  background-position: 120% 0%;*/
+  /*}*/
 
   body h1 {
     text-align: center;
@@ -221,11 +222,11 @@ textarea {
 }
 
 @media only screen and (max-width: 1700px) {
-  body {
-    background: url("../img/rick.png") no-repeat;
-    background-size: 100vh auto;
-    background-position: 120% 0%;
-  }
+  /*body {*/
+  /*  background: url("../img/rick.png") no-repeat;*/
+  /*  background-size: 100vh auto;*/
+  /*  background-position: 120% 0%;*/
+  /*}*/
 
   body h1 {
     text-align: center;
@@ -245,11 +246,11 @@ textarea {
 }
 
 @media only screen and (max-width: 2100px) {
-  body {
-    background: url("../img/rick.png") no-repeat;
-    background-size: 100vh auto;
-    background-position: 120% 0%;
-  }
+  /*body {*/
+  /*  background: url("../img/rick.png") no-repeat;*/
+  /*  background-size: 100vh auto;*/
+  /*  background-position: 120% 0%;*/
+  /*}*/
 
   h1 {
     text-align: center;
