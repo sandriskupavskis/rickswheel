@@ -197,6 +197,12 @@ textarea {
    ========================================================================== */
 
 @media only screen and (max-width: 1450px) {
+  body {
+    background: url("../img/rick.png") no-repeat;
+    background-size: 100vh auto;
+    background-position: 120% 0%;
+  }
+
   body h1 {
     text-align: center;
     margin-top: 50px;
@@ -215,6 +221,12 @@ textarea {
 }
 
 @media only screen and (max-width: 1700px) {
+  body {
+    background: url("../img/rick.png") no-repeat;
+    background-size: 100vh auto;
+    background-position: 120% 0%;
+  }
+
   body h1 {
     text-align: center;
     margin-top: 100px;
