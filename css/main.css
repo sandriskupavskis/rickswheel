@@ -24,9 +24,17 @@ body {
   height: 100vh;
 }
 
+.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   text-align: center;
-  margin-top: 200px;
+  margin: 0;
   font-size: 72px;
 }
 
@@ -197,17 +205,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 1450px) {
-
+@media only screen and (max-width: 1400px) {
   body {
-    background: url("../img/rick_ps.png") no-repeat 100% top;
+    background: url("../img/rick_ps_new.png") no-repeat 80% top;
     background-size: auto 100vh;
     height: 100vh;
   }
 
   body h1 {
     text-align: center;
-    margin-top: 50px;
+    margin: 0;
     font-size: 48px;
   }
 
@@ -217,21 +224,15 @@ textarea {
   }
 
   .wheel iframe {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
 }
 
 @media only screen and (max-width: 1700px) {
-  /*body {*/
-  /*  background: url("../img/rick.png") no-repeat;*/
-  /*  background-size: 100vh auto;*/
-  /*  background-position: 120% 0%;*/
-  /*}*/
-
   body h1 {
     text-align: center;
-    margin-top: 100px;
+    margin: 0;
     font-size: 55px;
   }
 
@@ -247,15 +248,9 @@ textarea {
 }
 
 @media only screen and (max-width: 2100px) {
-  /*body {*/
-  /*  background: url("../img/rick.png") no-repeat;*/
-  /*  background-size: 100vh auto;*/
-  /*  background-position: 120% 0%;*/
-  /*}*/
-
   h1 {
     text-align: center;
-    margin-top: 100px;
+    margin: 0;
     font-size: 72px;
   }
 
